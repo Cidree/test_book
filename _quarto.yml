@@ -2,9 +2,9 @@ project:
   type: book
 
 book:
-  title: "test_book"
-  author: "Norah Jones"
-  date: "28/5/2024"
+  title: "Test libro"
+  author: "Adrián Cidre"
+  date: "2024/05/28"
   chapters:
     - index.qmd
     - intro.qmd
