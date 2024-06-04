@@ -1,7 +1,31 @@
-# Summary
-
-In summary, this book has no content whatsoever.
+---
+execute: 
+  warning: false
+filters:
+  - webr
+webr:
+    packages: ["ggplot2"]
+---
 
 ```{r}
-1 + 1
+#| include: false
+library(ggplot2)
+```
+
+# Webr test 
+
+Replicar el siguiente histograma:
+
+```{r}
+#| echo: false
+#| message: false
+
+iris |> 
+    ggplot(aes(Sepal.Width)) +
+    geom_histogram(fill = "darkblue") +
+    theme_bw()
+```
+
+```{webr-r}
+## Introducir código
 ```
